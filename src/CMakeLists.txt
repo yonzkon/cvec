@@ -1,5 +1,5 @@
 file(GLOB SRC *.c)
-file(GLOB INC vec.h str.h list.h)
+file(GLOB INC vec.h str.h)
 
 if (BUILD_STATIC)
     add_library(cvec-static STATIC ${SRC} ${SRC_POSIX})
